@@ -17,9 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 from django.urls.conf import include
 
-
-
-from Django_Studies.alurareceita import receitas
+#from Django_Studies.alurareceita import receitas
 
 urlpatterns = [
     path('admin/', admin.site.urls),
